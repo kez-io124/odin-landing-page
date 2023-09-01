@@ -39,6 +39,43 @@ header {
     cursor: pointer;
 }
 
+.intro {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #00b386;
+    padding: 20px;
+}
+
+.intro-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-text > h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.intro-text > p {
+    font-size: 24px;
+}
+
+.form {
+    background-color: #ff6666;
+    padding: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+}
+  
+#submit {
+    background-color: #66ccff;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .digipads {
     display: flex;
     justify-content: space-evenly;
