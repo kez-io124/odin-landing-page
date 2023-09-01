@@ -62,10 +62,11 @@ header {
 
 .form {
     background-color: #ff6666;
-    padding: 10px;
-    border-radius: 3px;
+    padding: 15px;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
+    gap: 7px;
 }
   
 #submit {
@@ -74,6 +75,8 @@ header {
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .digipads {
