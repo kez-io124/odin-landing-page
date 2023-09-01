@@ -92,6 +92,10 @@ header {
     background-color: #0077b3;
 }
 
+.testimonials {
+    text-align: center;
+}
+
 footer {
     background-color: #d9d9d9;
     display: flex;
