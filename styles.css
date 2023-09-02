@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto&family=Kaushan+Script&display=swap');
 
 body {
     font-family: Roboto, sans-serif;
@@ -23,7 +23,7 @@ header {
   
 .logo > p {
     font-size: 16px;
-    font-family: Bad Script, sans-serif;
+    font-family: "Bad Script", sans-serif;
     font-weight: bold;
     transform: translateY(4px);
 }
@@ -79,6 +79,10 @@ header {
     margin: 0 auto;
 }
 
+.products {
+    margin: 20px;
+}
+
 .digipads {
     display: flex;
     justify-content: space-evenly;
@@ -94,10 +98,24 @@ header {
 
 .testimonials {
     text-align: center;
+    background-color: #97cec0;
+    padding: 50px;
+}
+
+.testimonials > p {
+    width: 50%;
+    margin: 0 auto;
+    line-height: 45px;
+    font-size: 22px;
+}
+
+.lorem-ipsum {
+    font-family: "Bad Script", sans-serif;
+    font-size: 26px;
 }
 
 footer {
-    background-color: #d9d9d9;
+    background-color: #00b386;
     display: flex;
     justify-content: space-between;
     padding: 10px 30px;
